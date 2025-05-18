@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Галерея изображений</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="gallery">
+    <img id="main-image" src="images/photo1.jpg" alt="Фото 1" />
+
+    <div class="controls">
+      <button id="prev">Назад</button>
+      <button id="next">Вперед</button>
+    </div>
+
+    <div class="thumbnails">
+      <img class="thumb active" src="images/photo1.jpg" data-index="0" alt="Фото 1" />
+      <img class="thumb" src="images/photo2.jpg" data-index="1" alt="Фото 2" />
+      <img class="thumb" src="images/photo3.jpg" data-index="2" alt="Фото 3" />
+      <img class="thumb" src="images/photo4.jpg" data-index="3" alt="Фото 4" />
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
